@@ -23,6 +23,6 @@ spring:
           predicates:
             - Path=/product/**
         - id: modelo-redis
-          uri: lb://COMPANY
+          uri: lb://MODELO_REDIS
           predicates:
             - Path=/company/**
